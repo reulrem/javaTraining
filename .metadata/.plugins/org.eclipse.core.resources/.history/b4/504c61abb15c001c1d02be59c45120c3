@@ -1,0 +1,26 @@
+package P_20211214.thiskeyword;
+
+public class SupersonicAirplane extends Airplane {
+	public SupersonicAirplane(int speed) {
+
+		super(speed);
+		System.out.println("초음속 비행기의 속도는 " + speed+ "km/s입니다");
+	}
+	
+	public void fly() {
+		super.fly();
+	}
+	
+	public void breakSpeed() {
+		
+		if(speed - 100 < 0){
+			speed = 0;
+			return;
+		}
+		speed -= 100;
+	}
+	
+	public void getInfo() {
+		System.out.println(speed);
+	}
+}

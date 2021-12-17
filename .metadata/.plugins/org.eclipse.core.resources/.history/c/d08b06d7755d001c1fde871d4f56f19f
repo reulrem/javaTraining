@@ -1,0 +1,22 @@
+package P_20211215.game.accessmodifier;
+
+
+public class Commoner {
+	private int lv;
+	private int hp;
+	private int mp;
+	private int exp;
+	
+	public Commoner() {
+		lv = 1;
+		hp = 20;
+		mp = 10;
+		exp = 0;
+	}
+	
+	public void getInfo() {
+
+		System.out.println("레벨: " + lv + "\nhp : " + hp + "\nmp : " + mp );	
+		System.out.println();
+	}
+}

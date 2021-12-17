@@ -1,0 +1,10 @@
+package P_20211214.Override;
+
+public class Lion extends Animal{
+
+		
+	public Lion(String name, int age, double weight) {
+		super(name, age, weight);
+	}
+		
+}

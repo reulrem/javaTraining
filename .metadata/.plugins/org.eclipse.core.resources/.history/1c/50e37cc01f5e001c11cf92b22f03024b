@@ -1,0 +1,16 @@
+package P_20211216.game.Interaction;
+
+public class Main03 {
+	public static void main(String[] args) {
+		Wizard w = new Wizard();
+		
+		Troll t = new Troll();
+		w.huntTroll(t);
+		w.huntTroll(t);
+		w.huntTroll(t);
+		w.huntTroll(t);
+		w.huntTroll(t);
+		w.huntTroll(t);
+		w.huntTroll(t);
+	}
+}

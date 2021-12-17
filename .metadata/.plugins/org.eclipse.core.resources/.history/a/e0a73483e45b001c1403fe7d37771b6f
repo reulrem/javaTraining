@@ -1,0 +1,16 @@
+package P_20211213.Inheritance;
+
+public class Human {
+	
+	publicpublic String name;
+	public int age;
+	public Human( String name, int age) {
+		this.name = name;
+		this.age = age;
+
+	}
+
+	public void getInfo() {
+		System.out.println("이름은 "+ name + "입니다. 나이는 " + age + "살 입니다.");
+	}
+}

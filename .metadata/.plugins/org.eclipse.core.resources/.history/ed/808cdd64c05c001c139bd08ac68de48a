@@ -1,0 +1,14 @@
+package test;
+
+public class test {
+	public static void main(String[] args) {
+		int total = 0;
+		for(int i = 1; i <5 ;i++ ) {
+			if(total == 0) {
+				total ++;
+			}
+			total += i +1;
+		}
+		System.out.println(total);
+	}
+}

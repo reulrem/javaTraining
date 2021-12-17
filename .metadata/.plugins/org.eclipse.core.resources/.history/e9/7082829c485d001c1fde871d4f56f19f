@@ -1,0 +1,20 @@
+package P_20211215.game.Ingeritance;
+
+public class Warrior extends Commoner{
+	
+	private int pDmg;
+	public Warrior(String id) {
+		// TODO Auto-generated constructor stub
+		super(id);
+		pDmg = 7;
+	}
+	
+	public void getInfo() {
+
+		
+		super.getInfo();
+		
+		System.out.println(pDmg);
+		
+	}
+}

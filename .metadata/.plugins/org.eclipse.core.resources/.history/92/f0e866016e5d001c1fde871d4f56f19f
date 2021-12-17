@@ -1,0 +1,5 @@
+package P_20211215.game.accessmodifier;
+
+public class Commoner {
+
+}

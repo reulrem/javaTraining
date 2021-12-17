@@ -1,0 +1,16 @@
+package P_20211213.Inheritance;
+
+public class Student extends Human{
+	
+	int S_num;
+
+	public Student(String name, int age) {
+		super(name, age);
+	}
+	
+	public void getStudentInfo() {
+
+		System.out.println("이름은 "+ name + "입니다. 나이는 " + age + "살 입니다. 학번은"+ "입니다. 나이는 " + S_num + "입니다.");
+	}
+
+}

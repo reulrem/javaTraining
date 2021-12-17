@@ -1,0 +1,9 @@
+package P_20211215.game.accessmodifier;
+
+public class Magician extends Commoner{
+	
+	public Magician() {
+		super();
+	}
+
+}

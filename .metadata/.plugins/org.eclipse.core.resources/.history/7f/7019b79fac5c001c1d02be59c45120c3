@@ -1,0 +1,29 @@
+package P_20211214.thiskeyword;
+
+public class Airplane {
+	int speed;
+	public Airplane(int speed) {
+		
+		if(speed> 900) {
+			speed = 900;
+		}
+		this.speed = speed;
+	}
+	
+	void fiy() {
+		if(speed + 500 > 900) {
+			speed = 900;
+			return;
+		}
+		speed += 500;
+		return;
+	}
+	
+	void breakSpeed() {
+		if(speed - 100 < 0){
+			speed = 0;
+			return;
+		}
+		speed -= 100;
+	}
+}

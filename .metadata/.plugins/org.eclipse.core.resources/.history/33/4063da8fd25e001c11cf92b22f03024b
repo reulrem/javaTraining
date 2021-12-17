@@ -1,0 +1,12 @@
+package P_20211217.interaction;
+
+public class Main01 {
+	public static void main(String[] args) {
+		Seller s1 = new Seller(5, 8);
+		Seller s2 = new Seller(52, 18);
+		Buyer b = new Buyer();
+
+		b.buyApple(s1, 6);
+		b.buyBanana(s2, 1);
+	}
+}

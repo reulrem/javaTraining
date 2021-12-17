@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.sql.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="P_20211207.Method01P204"/>
+    <fullyQualifiedTypeName name="garbagecollection_20211213.Item"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="P_20211213.accessmodifier.Warrior"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="P_20211213.Inheritance.Salaryman"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="P_20211214.Override.Animal"/>
+    <fullyQualifiedTypeName name="P_20211214.Overloading.Calculator"/>
+    <fullyQualifiedTypeName name="P_20211214.Overloading.PartTimer"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="P_20211214.thiskeyword.Person"/>
+    <fullyQualifiedTypeName name="P_20211214.thiskeyword.Airplane"/>
+    <fullyQualifiedTypeName name="P_20211214.thiskeyword.SupersonicAirplane"/>
+</qualifiedTypeNameHistroy>

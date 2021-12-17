@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;Practice/src/P_20211130&apos;&#x0D;&#x0A;- Original project: &apos;20211130&apos;&#x0D;&#x0A;- Destination element: &apos;Practice/src/P_20211130&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Exam02.java&#x0D;&#x0A;     HelloJava.java&#x0D;&#x0A;     Variable.java&#x0D;&#x0A;     DataInteger.java&#x0D;&#x0A;     Variable2.java&#x0D;&#x0A;     Exam01.java" description="Copy compilation units" destination="=Practice/src&lt;P_20211130" element1="/src&lt;{Exam02.java" element2="/src&lt;{HelloJava.java" element3="/src&lt;{Variable.java" element4="/src&lt;{DataInteger.java" element5="/src&lt;{Variable2.java" element6="/src&lt;{Exam01.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1638425571470" units="6" version="1.0"/>
+</session>
