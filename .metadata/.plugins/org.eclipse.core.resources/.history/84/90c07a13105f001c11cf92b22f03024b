@@ -12,10 +12,5 @@ public class Main02 {
 		c.hunting(g);
 		c.hunting(s);
 		c.hunting(b);
-		c.hunting(s);
-		c.hunting(s);
-		c.hunting(s);
-		c.hunting(s);
-		c.hunting(s);
 	}
 }
