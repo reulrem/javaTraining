@@ -1,0 +1,16 @@
+package P_20211220.heterogeneous;
+
+public class Cat {
+	private String name;
+	private int age;
+	
+	public Cat(String name, int age) {
+
+		this.age = age;
+		this.name = name;
+	}
+	
+	public void sit() {
+		System.out.println("앉아!");
+	}
+}

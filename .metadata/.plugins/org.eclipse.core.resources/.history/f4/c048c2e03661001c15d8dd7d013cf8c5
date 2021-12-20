@@ -1,0 +1,13 @@
+package P_20211220.heterogeneous;
+
+public class Main01 {
+	public static void main(String[] args) {
+		Animal a = new Animal("동물", 6);
+		Animal c = new Cat("갈매기", 1);
+		Animal d = new Dog("개", 5);
+
+		a.sit();
+		c.sit();
+		d.sit();
+	}
+}
