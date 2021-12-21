@@ -1,0 +1,5 @@
+package P_20211221.interface1;
+
+public interface Vehicle {
+
+}

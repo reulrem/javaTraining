@@ -1,0 +1,32 @@
+package P_20211221.interface1;
+
+public interface Vehicle {
+	
+
+	int MAX_GAS = 100;
+	int TRAIN_MAX_GAS = 300;
+	int CAR_MAX_GAS = 100;
+	int MIN_GAS = 0;
+	int TRAIN_MAX_SPEED = 300;
+	int CAR_MAX_SPEED = 100;
+
+	int TRAIN_ACCEL = 50;
+	int CAR_ACCEL = 10;
+	int TRAIN_BREAK = 70;
+	int CAR_BREAK = 10;
+	
+	
+	int MIN_SPEED = 0;
+	
+	
+	
+	
+	int AIRPLANE_MAX_GAS = 100;
+
+
+	public void accel();
+	public void breakSpeed();
+	public void reFuel();
+	public void showStatus();
+
+}
