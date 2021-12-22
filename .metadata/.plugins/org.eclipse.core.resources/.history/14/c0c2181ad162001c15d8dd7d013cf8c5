@@ -1,0 +1,25 @@
+package P_20211222.exception02;
+
+import java.util.Scanner;
+
+public class TryCatch02P35 {
+	public static void main(String[] args) {
+		int a,b;
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			try {
+				a = sc.nextInt();
+				b = sc.nextInt();
+				System.out.println(a/b);
+				break;
+			}catch (ArithmeticException e) {
+				System.out.println("에러 : " + e);
+				System.out.println("다시 입력하세요");
+			}catch(Exception e) {
+				System.out.println("에러코드 : " + e);
+				System.out.println("다시 입력하세요");
+			}
+		}
+		sc.close();
+	}
+}
