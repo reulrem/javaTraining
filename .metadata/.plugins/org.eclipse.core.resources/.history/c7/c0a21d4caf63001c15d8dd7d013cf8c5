@@ -1,0 +1,32 @@
+package P_20211223.exception3;
+
+import java.util.Scanner;
+
+public class String03P399 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("문장을 입력해주세요");
+		String string = sc.next();
+
+		System.out.println("찾으려는 단어를 입력해주세요");
+
+		String find = sc.next();
+		
+		int finding =0;
+
+		finding = string.indexOf(find);
+		System.out.println(finding + "번째에 있습니다.");
+		string = string.substring(finding);
+		System.out.println(string);
+		finding = string.indexOf(find+1);
+		System.out.println(finding + "번째에 있습니다.");
+		while(finding != -1) {
+			if(finding == -1) {
+				System.out.println("단어가 없습니다.");
+			}else {
+				System.out.println(finding + "번째에 있습니다.");
+			}
+			break;
+		}
+	}
+}

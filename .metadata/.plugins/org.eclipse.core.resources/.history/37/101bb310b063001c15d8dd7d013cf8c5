@@ -1,0 +1,40 @@
+package P_20211223.exception3;
+
+import java.util.Scanner;
+
+public class String03P399 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("문장을 입력해주세요");
+		String string = sc.next();
+
+		System.out.println("찾으려는 단어를 입력해주세요");
+
+		String find = sc.next();
+		
+		int finding =0;
+		int counting = 0;
+		int originStringlength = string.length();
+		
+		try {
+
+			while(finding != -1 ) {
+				
+				finding = string.indexOf(find);
+				if(finding == -1) {
+					System.out.println("단어가 없습니다.");
+				}else {
+					finding += originStringlength - string.length();
+					counting++;
+					System.out.println(counting+"번째 단어는" + 
+					finding + "번째에 있습니다.");
+				}
+				int finding =0;
+				string = string.substring(finding+1);
+			}
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+}

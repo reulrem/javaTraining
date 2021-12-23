@@ -1,0 +1,33 @@
+package P_20211223.exception3;
+
+import java.util.Scanner;
+
+public class TimeCheck02P384 {
+	public static void main(String[] args) {
+		int a,b;
+		long start = System.currentTimeMillis();
+		
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			try {
+				a = sc.nextInt();
+				b = sc.nextInt();
+				System.out.println(a/b);
+				break;
+			}catch (ArithmeticException e) {
+				System.out.println("에러 : " + e);
+				System.out.println("다시 입력하세요");
+			}catch(Exception e) {
+				System.out.println("에러코드 : " + e);
+				System.out.println("다시 입력하세요");
+			}finally {
+				sc.next();
+			}
+		}
+		long end =System.currentTimeMillis();
+		sc.close();	System.out.println("끝난시간 : " + end);
+		System.out.println("소요시간 : " + (end - start));
+		
+		}
+	}
+}
