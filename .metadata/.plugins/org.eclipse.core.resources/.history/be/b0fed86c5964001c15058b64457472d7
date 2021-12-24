@@ -1,0 +1,9 @@
+package P_20211224.string1;
+
+public class String0108P399 {
+	public static void main(String[] args) {
+		String banya = "			관자재보살 행심반야바라밀다시 조견오온개공 도일체고액";
+		System.out.println(banya.trim());
+		System.out.println(banya);
+	}
+}

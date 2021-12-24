@@ -1,8 +1,0 @@
-package P_20211213.Inheritance;
-
-public class Main01P254 {
-	public static void main(String[] args) {
-		Student s = new Student("충남",25);
-		s.getStudentInfo();
-	}
-}

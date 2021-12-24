@@ -1,0 +1,8 @@
+package P_20211224.stringBuilder1;
+
+public class StringBuilder06P408 {
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder("abcdefghijklnmopqrstuvwxyz");
+		System.out.println(sb);
+	}
+}

@@ -1,0 +1,16 @@
+package P_20211224.string1;
+
+import java.util.Scanner;
+
+public class String0105P399 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		String name = "";
+		System.out.println("이름 길이 : " + name.length() +"자");
+		
+		String report = "제출자 : 황순찬, 발표자 : 황순찬";
+		report = report.replace("황순찬", "박건");
+		System.out.println(report);
+	}
+}
